@@ -1,0 +1,43 @@
+html {
+  font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #ffffff;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-image: url('images/wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: #00ff90;
+  background-repeat: no-repeat;
+
+  margin-bottom: 60px;
+}
+.content {
+    overflow: hidden;
+}
+
+img {
+    float: right; 
+    margin-left: 10px;
+}
+
+.medium-image {
+    width: 300px;
+    height: auto;
+}
+
+
